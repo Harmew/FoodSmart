@@ -1,0 +1,59 @@
+.contato {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.contato:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #FF0000;
+  margin: 4px auto 0 auto;
+}
+
+.localizacao .localizacao-cima{
+  margin: 20px 10px 0 10px;
+}
+
+
+.localizacao-cima h3 {
+  color: red;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-indent: 40px;
+}
+
+.localizacao-cima p, .localizacao-cima a {
+  margin: 10px 0px;
+  color: #FFF;
+  text-indent: 40px;
+}
+
+.localizacao-cima a img {
+  margin: 20px 0 10px 0;
+  width: 100%;
+ 
+}
+
+.footer-a p {
+  color: #fff;
+  text-align: center;
+}
+
+.footer-a p:first-child {
+  font-size: 14px;
+  line-height: 3;
+}
+
+.footer-a p:last-child {
+  font-size: 22px;
+}
+
+.footer-b {
+  margin-top: 50px;
+}

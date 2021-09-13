@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(21,27,41,1) 0%, rgba(0,0,0,1) 100%);
+  background-repeat: no-repeat;
+  font-family: "Poppins";
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 25;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+/* Header */
+
+header {
+  height: 100px;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.logo-h1 {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.noselect:hover {
+  transition: 1s;
+  color: rgb(41, 16, 16);
+
+}
+
+.logo-h1 .logo-index:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #FF0000;
+  margin: 0px 0 0 4px;
+}
+
+header div h1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 25;
+  color: #FF0000;
+  text-transform: uppercase;
+  margin-left: 35px;
+}
+
+.header-menu ul {
+  text-align: right;
+}
+
+.header-menu ul li{
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.header-menu ul li a {
+  color: white;
+  font-size: 20px;
+}
+
+.header-menu ul li a:hover {
+color: red;
+}
+  
+.menu-ativo::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #FF0000;
+  margin: 4px auto 0 auto;;
+}
+
+/* Principal */
+
+.textos {
+  float: left;
+  margin-top: 130px;
+  margin-left: 60px;
+}
+
+.textos p:nth-child(1) {
+  font-size: 18px;
+  font-style: italic;
+  color: #bbbbbb;
+  padding-bottom: 30px;
+}
+
+.textos p:nth-child(2) {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.7;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.textos p:nth-child(2) span {
+  color: rgb(255, 0, 0);
+}
+
+.textos p:nth-child(3) {
+  font-size: 18px;
+  font-style: italic;
+  color: #bbbbbb;
+  padding-bottom: 30px;
+  width: 280px;
+  margin-bottom: 100px;
+}
+
+.textos button {
+  background-color: #FF0000;
+  width: 160px;
+  height: 60px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.507);
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 75px;
+}
+
+.textos button:hover {
+  color: #000;
+  background-color: white;
+  transition: 0.4s;
+}
+
+.call {
+  color: yellow;
+  text-shadow: 0px 1px 2px rgba(255, 255, 0, 0.541);
+}
+
+.call:hover {
+  color:red;
+  text-shadow: 0px 1px 2px rgba(255, 0, 0, 0.541);
+}
+
+.hamburguer img {
+  height: 671px;
+  width: 403px;
+  float: right;
+}
+
+.hamburguer {
+  margin-left: 20px;
+}
+
+.footer {
+  clear: both;
+  margin-top: 120px;
+  background-color: #000000;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}

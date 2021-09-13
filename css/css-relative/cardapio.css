@@ -1,0 +1,56 @@
+
+.subtitulo {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #FF0000;
+  margin: 4px auto 0 auto;
+}
+
+.cardapio div p {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 0px;
+}
+
+.cardapio div h3{
+  color: red;
+  float: left;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.cardapio div .preco {
+  text-align: right;
+  float: right;
+}
+
+.cardapio div .description {
+  clear: both;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-indent: 40px;
+}
+
+.separador-de-cardapio {
+  border-bottom: 2px solid red;
+  margin: 20px 40px;
+}
+
+.cardapio p {
+  color: #A9AEB3;
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+.bebidas {
+  margin-top: 40px;
+}

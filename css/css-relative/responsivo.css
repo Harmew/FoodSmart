@@ -1,0 +1,159 @@
+/* Estilo para tablet */
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  
+  .hamburguer img {
+    height: 601px;
+    width: 333px;
+    float: right;
+  }
+  
+  .hamburguer {
+    margin-left: 5px;
+  }
+  
+  .localizacao .localizacao-cima, .localizacao .grid-16{
+    margin: 20px 10px 0 10px;
+  }
+
+
+  
+}  /* Fim do estilo para Tablet */
+
+
+/* Estilo para smartphone */
+  
+@media only screen and (max-width: 787px) {
+
+
+  /* Header */
+
+  .container {
+    margin: 50px auto 0 auto;
+    display: flex;
+    max-width: 400px;
+  }
+
+  header div {
+    display: none;
+  }
+
+  header div h1 {
+    margin-left: 60px;
+  }
+
+  /* Main */
+
+  .textos p {
+  max-width: 400px;
+  }
+
+  .textos {
+    clear: both;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+
+  .textos p:nth-child(1) {
+    font-size: 14px;
+    font-style: italic;
+    color: #bbbbbb;
+    padding-bottom: 40px;
+  }
+
+  .textos p:nth-child(3) {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .textos button {
+    margin-bottom: 60px;
+    margin-left: 30%;
+  }
+
+  .hamburguer img {
+    display: none;
+    overflow: hidden;
+    margin-left: 0px;
+  }
+
+  .call {
+    margin-left: 43%;
+  }
+
+  /* Footer */
+
+  .footer {
+    padding: 10px;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .footer p {
+    font-size: 10px;
+  }
+
+  /* Cardapio */
+
+  .cardapio {
+    display: flex;
+    display: block;
+    max-width: 400px;
+    width: 900px;
+  }
+
+  .cardapio div .description {
+    max-width: 250px;
+    font-size: 12px;
+    text-indent: 0px;
+  }
+  
+  /* Localização */
+
+  .contato {
+    display: none;
+  }
+
+  .localizacao {
+    margin-top: 20px;
+  }
+
+
+  .localizacao .localizacao-cima{
+    margin: 0;
+  }
+  
+  
+  .localizacao-cima h3 {
+    color: red;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 26.5px;
+    text-indent: 0;
+  }
+  
+  .localizacao-cima p, .localizacao-cima a {
+    margin: 20px 0px;
+    color: #FFF;
+    font-size: 14px;
+    max-width: 300px;
+    text-indent: 0;
+  }
+  
+  .localizacao-cima a img {
+    margin: 20px 0 10px 0;
+    width: 100%;
+  }
+
+  .footer-a {
+    display: block;
+  }
+  
+  
+  .footer-b {
+    margin-top: 60px;
+  }
+
+
+}
